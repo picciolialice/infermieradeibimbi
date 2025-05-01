@@ -42,9 +42,7 @@
     <div style={{width: 16.76, height: 16.76, left: 14.12, top: 5.12, position: 'absolute', outline: '2px #FFF8F2 solid', outlineOffset: '-1px'}} />
     <div style={{width: 22.46, height: 22.46, left: 3.04, top: 10.50, position: 'absolute', outline: '2px #FFF8F2 solid', outlineOffset: '-1px'}} />
   </div>
-  <div style={{width: 305, height: 170, left: 54, top: 843, position: 'absolute', background: '#DF4C39', borderRadius: 18.57}} />
   <img style="width: 36px; height: 36px; left: 113px; top: 686px; position: absolute; z-index: 9999;" src="https://raw.githubusercontent.com/picciolialice/infermieradeibimbi/main/image/lucide-lab_bottle-baby.png">
-  </div>
   <div style={{width: 304, height: 182, left: 54, top: 1196, position: 'absolute', background: '#DF4C39', borderRadius: 18.57}} />
   <div style={{width: 94, height: 35, left: 82, top: 1312, position: 'absolute', background: '#FBE6B7', borderRadius: 23}} />
   <div style={{width: 25, left: 117, top: 1321, position: 'absolute', color: '#352317', fontSize: 14, fontFamily: 'Lato', fontWeight: '400', wordWrap: 'break-word'}}>Info</div>
