@@ -8,7 +8,7 @@
   <div style={{left: 34, top: 259, position: 'absolute', color: '#352317', fontSize: 20, fontFamily: 'League Spartan', fontWeight: '600', wordWrap: 'break-word'}}>Ogni giorno è una nuova scoperta</div>
   <div style={{width: 354, left: 34, top: 354, position: 'absolute', color: '#352317', fontSize: 16, fontFamily: 'Lato', fontWeight: '400', wordWrap: 'break-word'}}>Ogni famiglia è unica. Il mio approccio è pensato per accogliervi e fornirvi la guida su misura che meritate.</div>
   <div style={{width: 345, left: 34, top: 596, position: 'absolute', color: '#352317', fontSize: 16, fontFamily: 'Lato', fontWeight: '500', wordWrap: 'break-word'}}>Scoprite come posso aiutarvi</div>
-  <img style={{width: 32, height: 32, left: 347, top: 72, position: 'absolute'}} src="https://github.com/picciolialice/infermieradeibimbi/blob/fc65a9c3f1ebd9d5947e693e7972dd4efd679b52/iconmenu.png" />
+  <img style={{width: 32, height: 32, left: 347, top: 72, position: 'absolute'}} src="https://raw.githubusercontent.com/picciolialice/infermieradeibimbi/main/image/iconmenu.png" />
   <div style={{left: 34, top: 508, position: 'absolute', color: '#DF4C39', fontSize: 35, fontFamily: 'League Spartan', fontWeight: '700', wordWrap: 'break-word'}}>Genitori, <br/>non siete soli! </div>
   <div style={{width: 305, height: 177, left: 54, top: 656, position: 'absolute', background: '#DF4C39', borderRadius: 18.57}} />
   <div style={{width: 122, height: 35, left: 69, top: 770, position: 'absolute', background: '#FBE6B7', borderRadius: 23}} />
