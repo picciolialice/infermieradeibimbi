@@ -189,7 +189,7 @@
   position: absolute;
 }
 
-.icons8-menu-32-1 {
+.iconsmenu.png {
   width: 32px;
   height: 32px;
   left: 347px;
