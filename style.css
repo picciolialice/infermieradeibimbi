@@ -1,0 +1,602 @@
+import React from "react";
+import styled from "styled-components";
+
+const StyledRectangle2 = styled.div`
+  width: 118px;
+  height: 35px;
+  left: 34px;
+  top: 439px;
+  position: absolute;
+  background: #DF4C39;
+  border-radius: 23px;
+`;
+
+const StyledPrenotaoraspan = styled.span`
+  color: #FBE6B7;
+  font-size: 14px;
+  font-family: Lato;
+  font-weight: 600;
+  word-wrap: break-word;
+`;
+
+const StyledEllipse1 = styled.div`
+  width: 463px;
+  height: 454px;
+  left: 176px;
+  top: 76px;
+  position: absolute;
+  background: #FBE6B7;
+  border-radius: 9999px;
+`;
+
+const StyledInfermierapediatricaspan = styled.span`
+  color: #DF4C39;
+  font-size: 35px;
+  font-family: League Spartan;
+  font-weight: 700;
+  word-wrap: break-word;
+`;
+
+const StyledDottssaalicepicciolispan = styled.span`
+  color: #67452D;
+  font-size: 26px;
+  font-family: League Spartan;
+  font-weight: 700;
+  word-wrap: break-word;
+`;
+
+const StyledViaccompagnoavivereconfiduciaedentusiasmolemeravigliosetappedicrescitada0a3annispan = styled.span`
+  color: #352317;
+  font-size: 16px;
+  font-family: Lato;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledOgnigiornounanuovascopertaspan = styled.span`
+  color: #352317;
+  font-size: 20px;
+  font-family: League Spartan;
+  font-weight: 600;
+  word-wrap: break-word;
+`;
+
+const StyledOgnifamigliaunicailmioapprocciopensatoperaccoglierviefornirvilaguidasumisurachemeritatespan = styled.span`
+  color: #352317;
+  font-size: 16px;
+  font-family: Lato;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledScopritecomepossoaiutarvispan = styled.span`
+  color: #352317;
+  font-size: 16px;
+  font-family: Lato;
+  font-weight: 500;
+  word-wrap: break-word;
+`;
+
+const StyledIcons8menu321 = styled.div`
+  width: 32px;
+  height: 32px;
+  left: 347px;
+  top: 72px;
+  position: absolute;
+`;
+
+const StyledGenitorinonsietesolispan = styled.span`
+  color: #DF4C39;
+  font-size: 35px;
+  font-family: League Spartan;
+  font-weight: 700;
+  word-wrap: break-word;
+`;
+
+const StyledRectangle3 = styled.div`
+  width: 305px;
+  height: 177px;
+  left: 54px;
+  top: 656px;
+  position: absolute;
+  background: #DF4C39;
+  border-radius: 18.57px;
+`;
+
+const StyledRectangle19 = styled.div`
+  width: 122px;
+  height: 35px;
+  left: 69px;
+  top: 770px;
+  position: absolute;
+  background: #FBE6B7;
+  border-radius: 23px;
+`;
+
+const StyledInfospan = styled.span`
+  color: black;
+  font-size: 14px;
+  font-family: Lato;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledRectangle9 = styled.div`
+  width: 304px;
+  height: 162px;
+  left: 54px;
+  top: 1023px;
+  position: absolute;
+  background: #DF4C39;
+  border-radius: 18.57px;
+`;
+
+const StyledRectangle21 = styled.div`
+  width: 100px;
+  height: 35px;
+  left: 80px;
+  top: 1125px;
+  position: absolute;
+  background: #FBE6B7;
+  border-radius: 23px;
+`;
+
+const StyledInfo01span = styled.span`
+  color: #352317;
+  font-size: 14px;
+  font-family: Lato;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledHaidifficoltadallattarepensicheiltuobimbononcrescaabbastanzanonaverepaurapossoaiutartispan = styled.span`
+  color: #FFF8F2;
+  font-size: 16px;
+  font-family: Lato;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledHaibisognodisupportoneiprimigiorniinsiemealtuobimbopossoaiutartiseguendotidirettamenteacasatuaspan = styled.span`
+  color: #FFF8F2;
+  font-size: 16px;
+  font-family: Lato;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledAllattamentospan = styled.span`
+  color: #FFF8F2;
+  font-size: 24px;
+  font-family: League Spartan;
+  font-weight: 500;
+  word-wrap: break-word;
+`;
+
+const StyledPostpartospan = styled.span`
+  color: #FFF8F2;
+  font-size: 24px;
+  font-family: League Spartan;
+  font-weight: 500;
+  word-wrap: break-word;
+`;
+
+const StyledPerchscegliermispan = styled.span`
+  color: #DF4C39;
+  font-size: 35px;
+  font-family: League Spartan;
+  font-weight: 600;
+  word-wrap: break-word;
+`;
+
+const StyledLavorotuttiigiornipercreareunagenerazionedigenitoriconsapevoliesicurinelpercorsodicrescitadeilorobambinispan = styled.span`
+  color: #352317;
+  font-size: 16px;
+  font-family: Lato;
+  font-weight: 500;
+  word-wrap: break-word;
+`;
+
+const StyledAttraversoconsulenzemirateepersonalizzatesupportoemotivoeformazionepraticaaiutolefamiglieanavigareconserenitlefasicrucialidellosviluppoinfantilelavorandoinsinergiaconlaretepediatricalocalespan = styled.span`
+  color: #352317;
+  font-size: 16px;
+  font-family: Lato;
+  font-weight: 500;
+  word-wrap: break-word;
+`;
+
+const StyledNonlavorodasolasonosempreprontaacollaborareconlaretepediatricaealtriprofessionistidellasalutespan = styled.span`
+  color: #352317;
+  font-size: 16px;
+  font-family: Lato;
+  font-weight: 500;
+  word-wrap: break-word;
+`;
+
+const StyledVector = styled.div`
+  width: 33.87px;
+  height: 34.82px;
+  left: 113px;
+  top: 1048px;
+  position: absolute;
+  background: #FFF8F2;
+`;
+
+const StyledLine1 = styled.div`
+  width: 254px;
+  height: 0px;
+  left: 34.25px;
+  top: 1796px;
+  position: absolute;
+  transform: rotate(-90deg);
+  transform-origin: top left;
+  outline: 1px #FBE6B7 solid;
+  outline-offset: -0.50px;
+`;
+
+const StyledVector01 = styled.div`
+  width: 9px;
+  height: 9px;
+  left: 7.50px;
+  top: 7.50px;
+  position: absolute;
+  background: #DF4C39;
+  outline: 2px #DF4C39 solid;
+  outline-offset: -1px;
+`;
+
+const StyledVector02 = styled.div`
+  width: 9px;
+  height: 9px;
+  left: 7.50px;
+  top: 7.50px;
+  position: absolute;
+  background: #DF4C39;
+  outline: 2px #DF4C39 solid;
+  outline-offset: -1px;
+`;
+
+const StyledVector03 = styled.div`
+  width: 9px;
+  height: 9px;
+  left: 7.50px;
+  top: 7.50px;
+  position: absolute;
+  background: #DF4C39;
+  outline: 2px #DF4C39 solid;
+  outline-offset: -1px;
+`;
+
+const StyledVector04 = styled.div`
+  width: 13.62px;
+  height: 13.62px;
+  left: 19.50px;
+  top: 2.88px;
+  position: absolute;
+  outline: 2px #FFF8F2 solid;
+  outline-offset: -1px;
+`;
+
+const StyledVector05 = styled.div`
+  width: 16.76px;
+  height: 16.76px;
+  left: 14.12px;
+  top: 5.12px;
+  position: absolute;
+  outline: 2px #FFF8F2 solid;
+  outline-offset: -1px;
+`;
+
+const StyledVector06 = styled.div`
+  width: 22.46px;
+  height: 22.46px;
+  left: 3.04px;
+  top: 10.50px;
+  position: absolute;
+  outline: 2px #FFF8F2 solid;
+  outline-offset: -1px;
+`;
+
+const StyledRectangle4 = styled.div`
+  width: 305px;
+  height: 170px;
+  left: 54px;
+  top: 843px;
+  position: absolute;
+  background: #DF4C39;
+  border-radius: 18.57px;
+`;
+
+const StyledRectangle22 = styled.div`
+  width: 130px;
+  height: 35px;
+  left: 64px;
+  top: 946px;
+  position: absolute;
+  background: #FBE6B7;
+  border-radius: 23px;
+`;
+
+const StyledInfo02span = styled.span`
+  color: #352317;
+  font-size: 14px;
+  font-family: Lato;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledIltuobimbodeveiniziareaintrodurreglialimentisolidimanontisentisicurasonoquiperquestospan = styled.span`
+  color: #FFF8F2;
+  font-size: 16px;
+  font-family: Lato;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledSvezzamentospan = styled.span`
+  color: #FFF8F2;
+  font-size: 24px;
+  font-family: League Spartan;
+  font-weight: 500;
+  word-wrap: break-word;
+`;
+
+const StyledVector07 = styled.div`
+  width: 27.84px;
+  height: 28.88px;
+  left: 2.06px;
+  top: 2.06px;
+  position: absolute;
+  background: #FFF8F2;
+`;
+
+const StyledRectangle10 = styled.div`
+  width: 304px;
+  height: 182px;
+  left: 54px;
+  top: 1196px;
+  position: absolute;
+  background: #DF4C39;
+  border-radius: 18.57px;
+`;
+
+const StyledRectangle20 = styled.div`
+  width: 94px;
+  height: 35px;
+  left: 82px;
+  top: 1312px;
+  position: absolute;
+  background: #FBE6B7;
+  border-radius: 23px;
+`;
+
+const StyledInfo03span = styled.span`
+  color: #352317;
+  font-size: 14px;
+  font-family: Lato;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledIltuobimbohadermatitedapannolinoolahafrequentementeperquesteealtreproblematichepossoassistervispan = styled.span`
+  color: #FFF8F2;
+  font-size: 16px;
+  font-family: Lato;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledCuradellacutespan = styled.span`
+  color: #FFF8F2;
+  font-size: 24px;
+  font-family: League Spartan;
+  font-weight: 500;
+  word-wrap: break-word;
+`;
+
+const StyledVector08 = styled.div`
+  width: 31px;
+  height: 34.82px;
+  left: 114px;
+  top: 1211px;
+  position: absolute;
+  background: #FFF8F2;
+`;
+
+const StyledRectangle18 = styled.div`
+  width: 412px;
+  height: 163px;
+  left: 0px;
+  top: 1951px;
+  position: absolute;
+  background: #FBE6B7;
+`;
+
+const StyledTerminiecondizionicookiepolicyinformativasullaprivacypiva029942309992025infermieradeibimbicomspan = styled.span`
+  color: black;
+  font-size: 16px;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector09 = styled.div`
+  width: 17.10px;
+  height: 17.10px;
+  left: 334.95px;
+  top: 2010px;
+  position: absolute;
+  background: black;
+`;
+
+const StyledVector10 = styled.div`
+  width: 17px;
+  height: 17px;
+  left: 303px;
+  top: 2010.05px;
+  position: absolute;
+  outline: 1.50px black solid;
+  outline-offset: -0.75px;
+`;
+
+const StyledVector11 = styled.div`
+  width: 8.95px;
+  height: 8.95px;
+  left: 307.47px;
+  top: 2013.63px;
+  position: absolute;
+  outline: 1.50px black solid;
+  outline-offset: -0.75px;
+`;
+
+const StyledVector12 = styled.div`
+  width: 17.10px;
+  height: 17.10px;
+  left: 334.95px;
+  top: 2010px;
+  position: absolute;
+  background: black;
+`;
+
+const StyledVector13 = styled.div`
+  width: 17px;
+  height: 17px;
+  left: 303px;
+  top: 2010.05px;
+  position: absolute;
+  outline: 1.50px black solid;
+  outline-offset: -0.75px;
+`;
+
+const StyledVector14 = styled.div`
+  width: 8.95px;
+  height: 8.95px;
+  left: 307.47px;
+  top: 2013.63px;
+  position: absolute;
+  outline: 1.50px black solid;
+  outline-offset: -0.75px;
+`;
+
+const StyledIconparkoutlinedot = styled.div`
+  width: 24px;
+  height: 24px;
+  left: 22px;
+  top: 1530px;
+  position: absolute;
+`;
+
+const StyledIconparkoutlinedot01 = styled.div`
+  width: 24px;
+  height: 24px;
+  left: 22px;
+  top: 1639px;
+  position: absolute;
+`;
+
+const StyledIconparkoutlinedot02 = styled.div`
+  width: 24px;
+  height: 24px;
+  left: 22px;
+  top: 1784px;
+  position: absolute;
+`;
+
+const StyledLucidelabbottlebaby = styled.div`
+  width: 36px;
+  height: 36px;
+  left: 113px;
+  top: 686px;
+  position: absolute;
+`;
+
+const StyledFluentfood16regular = styled.div`
+  width: 33px;
+  height: 33px;
+  left: 113px;
+  top: 862px;
+  position: absolute;
+  overflow: hidden;
+`;
+
+const StyledHome = styled.div`
+  width: 412px;
+  height: 2114px;
+  position: relative;
+  background: #FFF8F2;
+  overflow: hidden;
+`;
+
+export const Home = () => {
+  return (
+    <StyledHome>
+      <StyledRectangle2 />
+      <StyledPrenotaora>Prenota ora</StyledPrenotaora>
+      <StyledEllipse1 />
+      <StyledInfermieraPediatrica>Infermiera Pediatrica</StyledInfermieraPediatrica>
+      <StyledDottssaAlicePiccioli>Dott.ssa Alice Piccioli</StyledDottssaAlicePiccioli>
+      <StyledViaccompagnoavivereconfiduciaedentusiasmolemeravigliosetappedicrescitada0a3anni>Vi accompagno a vivere con fiducia ed entusiasmo le meravigliose tappe di crescita da 0 a 3 anni.</StyledViaccompagnoavivereconfiduciaedentusiasmolemeravigliosetappedicrescitada0a3anni>
+      <StyledOgnigiornounanuovascoperta>Ogni giorno è una nuova scoperta</StyledOgnigiornounanuovascoperta>
+      <StyledOgnifamigliaunicaIlmioapprocciopensatoperaccoglierviefornirvilaguidasumisurachemeritate>Ogni famiglia è unica. Il mio approccio è pensato per accogliervi e fornirvi la guida su misura che meritate.</StyledOgnifamigliaunicaIlmioapprocciopensatoperaccoglierviefornirvilaguidasumisurachemeritate>
+      <StyledScopritecomepossoaiutarvi>Scoprite come posso aiutarvi</StyledScopritecomepossoaiutarvi>
+      <StyledIcons8menu321  src="https://placehold.co/32x32"/>
+      <StyledGenitorinonsietesoli>Genitori, <br/>non siete soli! </StyledGenitorinonsietesoli>
+      <StyledRectangle3 />
+      <StyledRectangle19 />
+      <StyledInfo>Info</StyledInfo>
+      <StyledRectangle9 />
+      <StyledRectangle21 />
+      <StyledInfo01>Info</StyledInfo01>
+      <StyledHaidifficoltadallattarePensicheiltuobimbononcrescaabbastanzaNonaverepaurapossoaiutarti>Hai difficoltà ad allattare? Pensi che il tuo bimbo non cresca abbastanza? Non avere paura, posso aiutarti!</StyledHaidifficoltadallattarePensicheiltuobimbononcrescaabbastanzaNonaverepaurapossoaiutarti>
+      <StyledHaibisognodisupportoneiprimigiorniinsiemealtuobimboPossoaiutartiseguendotidirettamenteacasatua>Hai bisogno di supporto nei primi giorni insieme al
+      <br/>tuo bimbo? Posso aiutarti seguendoti direttamente
+      <br/>a casa tua</StyledHaibisognodisupportoneiprimigiorniinsiemealtuobimboPossoaiutartiseguendotidirettamenteacasatua>
+      <StyledAllattamento>Allattamento</StyledAllattamento>
+      <StyledPostparto>Post parto</StyledPostparto>
+      <StyledPerchscegliermi>Perché scegliermi?</StyledPerchscegliermi>
+      <StyledLavorotuttiigiornipercreareunagenerazionedigenitoriconsapevoliesicurinelpercorsodicrescitadeilorobambini>Lavoro tutti i giorni per creare una generazione di genitori  consapevoli e sicuri nel percorso di crescita dei loro bambini.</StyledLavorotuttiigiornipercreareunagenerazionedigenitoriconsapevoliesicurinelpercorsodicrescitadeilorobambini>
+      <StyledAttraversoconsulenzemirateepersonalizzatesupportoemotivoeformazionepraticaaiutolefamiglieanavigareconserenitlefasicrucialidellosviluppoinfantilelavorandoinsinergiaconlaretepediatricalocale>Attraverso consulenze mirate e personalizzate, supporto emotivo e formazione pratica, aiuto le famiglie a navigare con serenità le fasi cruciali dello sviluppo infantile, lavorando in sinergia con la rete pediatrica locale.</StyledAttraversoconsulenzemirateepersonalizzatesupportoemotivoeformazionepraticaaiutolefamiglieanavigareconserenitlefasicrucialidellosviluppoinfantilelavorandoinsinergiaconlaretepediatricalocale>
+      <StyledNonlavorodasolasonosempreprontaacollaborareconlaretepediatricaealtriprofessionistidellasalute>Non lavoro da sola: sono sempre pronta a collaborare con la rete pediatrica e altri professionisti della salute</StyledNonlavorodasolasonosempreprontaacollaborareconlaretepediatricaealtriprofessionistidellasalute>
+      <StyledVector />
+      <div></div>
+      <StyledIconparkoutlinedot>
+        <StyledVector01 />
+      </StyledIconparkoutlinedot>
+      <StyledIconparkoutlinedot01>
+        <StyledVector02 />
+      </StyledIconparkoutlinedot01>
+      <StyledIconparkoutlinedot02>
+        <StyledVector03 />
+      </StyledIconparkoutlinedot02>
+      <StyledLucidelabbottlebaby>
+        <StyledVector04 />
+        <StyledVector05 />
+        <StyledVector06 />
+      </StyledLucidelabbottlebaby>
+      <StyledRectangle4 />
+      <StyledRectangle22 />
+      <StyledInfo02>Info</StyledInfo02>
+      <StyledIltuobimbodeveiniziareaintrodurreglialimentisolidimanontisentisicuraSonoquiperquesto>Il tuo bimbo deve iniziare a introdurre gli alimenti solidi ma non ti senti sicura? Sono qui per questo!</StyledIltuobimbodeveiniziareaintrodurreglialimentisolidimanontisentisicuraSonoquiperquesto>
+      <StyledSvezzamento>Svezzamento</StyledSvezzamento>
+      <StyledFluentfood16regular>
+        <StyledVector07 />
+      </StyledFluentfood16regular>
+      <StyledRectangle10 />
+      <StyledRectangle20 />
+      <StyledInfo03>Info</StyledInfo03>
+      <StyledIltuobimbohadermatitedapannolinoolahafrequentementePerquesteealtreproblematichepossoassistervi>Il tuo bimbo ha dermatite da pannolino o la ha
+      <br/>frequentemente? Per queste e altre problematiche posso assistervi</StyledIltuobimbohadermatitedapannolinoolahafrequentementePerquesteealtreproblematichepossoassistervi>
+      <StyledCuradellacute>Cura<br/>della cute</StyledCuradellacute>
+      <StyledVector08 />
+      <StyledRectangle18 />
+      <StyledTerminiecondizioniCookiepolicyInformativasullaprivacyPIVA029942309992025infermieradeibimbicom>Termini e condizioni<br/>Cookie policy<br/>Informativa sulla privacy<br/>P.IVA      02994230999<br/><br/>©2025 infermieradeibimbi.com</StyledTerminiecondizioniCookiepolicyInformativasullaprivacyPIVA029942309992025infermieradeibimbicom>
+      <StyledVector09 />
+      <StyledVector10 />
+      <StyledVector11 />
+      <StyledVector12 />
+      <StyledVector13 />
+      <StyledVector14 />
+    </StyledHome>
+  );
+};
