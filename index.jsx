@@ -43,12 +43,7 @@
     <div style={{width: 22.46, height: 22.46, left: 3.04, top: 10.50, position: 'absolute', outline: '2px #FFF8F2 solid', outlineOffset: '-1px'}} />
   </div>
   <div style={{width: 305, height: 170, left: 54, top: 843, position: 'absolute', background: '#DF4C39', borderRadius: 18.57}} />
-  <div style={{width: 130, height: 35, left: 64, top: 946, position: 'absolute', background: '#FBE6B7', borderRadius: 23}} />
-  <div style={{width: 27, left: 116, top: 955, position: 'absolute', color: '#352317', fontSize: 14, fontFamily: 'Lato', fontWeight: '400', wordWrap: 'break-word'}}>Info</div>
-  <div style={{width: 121, height: 127, left: 209, top: 860, position: 'absolute', color: '#FFF8F2', fontSize: 16, fontFamily: 'Lato', fontWeight: '400', wordWrap: 'break-word'}}>Il tuo bimbo deve iniziare a introdurre gli alimenti solidi ma non ti senti sicura? Sono qui per questo!</div>
-  <div style={{left: 64, top: 906, position: 'absolute', color: '#FFF8F2', fontSize: 24, fontFamily: 'League Spartan', fontWeight: '500', wordWrap: 'break-word'}}>Svezzamento</div>
-  <div style={{width: 33, height: 33, left: 113, top: 862, position: 'absolute', overflow: 'hidden'}}>
-    <div style={{width: 27.84, height: 28.88, left: 2.06, top: 2.06, position: 'absolute', background: '#FFF8F2'}} />
+  <img style="width: 36px; height: 36px; left: 113px; top: 686px; position: absolute" src="https://raw.githubusercontent.com/picciolialice/infermieradeibimbi/main/image/lucide-lab_bottle-baby.png">
   </div>
   <div style={{width: 304, height: 182, left: 54, top: 1196, position: 'absolute', background: '#DF4C39', borderRadius: 18.57}} />
   <div style={{width: 94, height: 35, left: 82, top: 1312, position: 'absolute', background: '#FBE6B7', borderRadius: 23}} />
