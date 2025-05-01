@@ -8,7 +8,7 @@
   <div class="ogni-giorno-una-nuova-scoperta"><span class="ognigiornounanuovascoperta_span">Ogni giorno è una nuova scoperta</span></div>
   <div class="ogni-famiglia-unica-il-mio-approccio-pensato-per-accogliervi-e-fornirvi-la-guida-su-misura-che-meritate"><span class="ognifamigliaunicailmioapprocciopensatoperaccoglierviefornirvilaguidasumisurachemeritate_span">Ogni famiglia è unica. Il mio approccio è pensato per accogliervi e fornirvi la guida su misura che meritate.</span></div>
   <div class="scoprite-come-posso-aiutarvi"><span class="scopritecomepossoaiutarvi_span">Scoprite come posso aiutarvi</span></div>
-  <img class="iconsmenu.png" src="https://github.com/picciolialice/infermieradeibimbi/blob/fc65a9c3f1ebd9d5947e693e7972dd4efd679b52/iconmenu.png" />
+  <img class="iconsmenu.png" src="https://raw.githubusercontent.com/picciolialice/infermieradeibimbi/main/image/iconmenu.png" />
   <div class="genitori-non-siete-soli"><span class="genitorinonsietesoli_span">Genitori, <br/>non siete soli! </span></div>
   <div class="rectangle-3"></div>
   <div class="rectangle-19"></div>
